@@ -1,0 +1,38 @@
+.contacts__content {
+  max-width: 1140px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts__column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+ 
+}
+
+
+
+.contacts__links-wrapper {
+  display: flex;
+  column-gap: 0px;
+}
+
+.contacts__detail-title {
+  margin: 0;
+  min-width: 200px;
+  font-size: 16px;
+  padding-bottom: 5px;
+  color: #012d49;
+  font-weight: 400;
+}
+
+.contacts__link {
+  color: #012d49;
+  text-decoration: none;
+  font-size: 24px;
+  transition: color 0.4s ease-in-out;
+}
+

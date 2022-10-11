@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useRouteMatch } from "react-router-dom";
+import { Link} from "react-router-dom";
 import './Catalog.css';
 
 import {catalog} from '../../consts/CatalogData'
@@ -12,7 +12,7 @@ function Catalog() {
         <div className='catalog__menu'>
         {catalog.map((item) => (
           <div key={item.id} className="catalog__chapter">
-            <Link to={`${item.path}`} className="catalog__chapter-link">
+            <Link to={`/catalog/${item.chapter}`} className="catalog__chapter-link">
               <div className="catalog__chapter_image-wrapper">
                 <img src={item.ico} className="catalog__chapter-ico" alt='Иконка раздела'/>                
               </div>

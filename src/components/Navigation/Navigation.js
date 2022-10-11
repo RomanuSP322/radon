@@ -13,7 +13,7 @@ function Navigation() {
         </li>
         <li className='navigation__item navigation__item_type_contact'>
           <NavLink
-            to='/'
+            to='/contacts'
             className='navigation__link navigation__link_type_contact'
           >
             Связаться с нами

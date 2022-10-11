@@ -1,10 +1,16 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import main from '../../images/main.png';
 import Catalog from '../Catalog/Catalog';
 import Footer from '../Footer/Footer';
 import './Main.css';
 
 function Main() {
+
+  useEffect(() => {
+    document.title = 'Радон';
+  });
+
+
   return (
     <div className='main'>
       <section className='intro'>
@@ -86,6 +92,7 @@ function Main() {
           </div>
         </div>
       </section>
+
       <Footer />
     </div>
   );
